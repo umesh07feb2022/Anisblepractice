@@ -5,6 +5,5 @@
   - include_tasks: myfile.yml
   - name: i want to install web srever
     apt:
-     name: apache3
+     name: apache2
      state: present
-     
