@@ -8,7 +8,7 @@
     apt:
      name: apache2
      state: present
-    notify:  restartwebserver
+    notify: restartwebserver
 
   - name: i want to copy indexfile into ansible node side
     template:
@@ -20,4 +20,4 @@
   - name: restartwebserver
     service:
       name: apache2
-      state: presentss
+      state: present
