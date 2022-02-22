@@ -1,0 +1,6 @@
+---
+- myhosts: 172.31.87.23
+  become: yes
+  roles:
+  - mywebrole
+  
