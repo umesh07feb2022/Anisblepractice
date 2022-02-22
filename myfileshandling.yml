@@ -8,13 +8,13 @@
     apt:
      name: apache2
      state: present
-   notify: restartwebserver
+    notify: restartwebserver
 
   - name: i want to copy indexfile into ansible node side
     template:
      src: myindex.j2 
      dest: /var/www/html/index.html
-   notify: restartwebserver 
+    notify: restartwebserver 
     
   handlers:
   - name: restartwebserver
