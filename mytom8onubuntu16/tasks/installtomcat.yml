@@ -14,4 +14,4 @@
  - name: extract the archive
    command:
        cmd:   sudo tar xzvf /home/ubuntu/apache-tomcat-8.5.5.tar.gz -C /opt/tomcat --strip-components=1
-       creates: /opt/tomcat/LICENC
+       creates: /opt/tomcat/LICENCE
