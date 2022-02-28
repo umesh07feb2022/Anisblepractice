@@ -1,0 +1,6 @@
+---
+- name: deploy java application
+  get_url:
+    url: 
+    dest: /opt/tomcat/webapps
+  force_basic_auth: yes
