@@ -1,9 +1,0 @@
----
-- name: update package
-  apt:
-   update_cache: yes
-
-- name: installjava.yml
-  apt: 
-    name:  default-jdk
-    state: present
